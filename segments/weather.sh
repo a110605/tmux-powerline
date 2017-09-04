@@ -11,7 +11,7 @@ if shell_is_bsd; then
 else
 	TMUX_POWERLINE_SEG_WEATHER_GREP_DEFAULT="grep"
 fi
-
+TMUX_POWERLINE_SEG_WEATHER_LOCATION="2306179"
 
 generate_segmentrc() {
 	read -d '' rccontents  << EORC
